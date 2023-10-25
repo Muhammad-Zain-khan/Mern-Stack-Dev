@@ -1,0 +1,137 @@
+<html>
+<head>
+
+<style>
+nav
+{
+width:500px;
+height:50px;
+background-color:#999;
+}				
+
+
+nav ul
+
+{
+list-style:none;
+margin:0;
+padding:0;
+}
+
+nav li 
+{
+float:left;
+width:100px;
+height:50px;
+background-color:#909;
+text-align:center;}
+
+nav li a
+{
+text-decoration:none;
+line-height:50px;
+transition:0.3s ease-in-out;}
+
+nav li a:hover
+{
+color:white;
+
+}
+
+#z-i ul
+{display: none}
+
+#z-i:hover ul
+{display:block;}
+
+ #z-2 ul
+{
+	width:100px;
+	height:50px;
+	position: absolute;
+	left: 5%;
+	top:108px;
+	
+	
+}
+
+#z-2 #z-3
+{display: none;}
+
+#z-2:hover #z-3
+{
+	display: block;
+}
+
+#a-z .ab-d
+{
+	display: none;}
+
+
+
+#a-z:hover .ab-d
+{transition: 0.4;
+	display: block;
+}
+
+
+.ab-d
+{
+	width: 500px;
+	height: 300px;
+	background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+</style>
+
+
+<head>
+
+
+<body>
+
+	<nav>
+		<ul>
+			<li id="z-i"><a href="">Home</a>
+
+					<ul>
+						<li><a href="">Menu-1</a></li>
+						<li id=z-2><a href="">Menu-2</a>
+								<ul id="z-3">
+									<li><a href="">Drop-1</a></li>
+									<li><a href="">Drop-2</a></li>
+									<li><a href="">Drop-3</a></li>
+								</ul>
+						</li>
+						<li><a href="">Menu-3</a></li>
+						<li><a href="">Menu-4</a>
+						
+						</li>
+					</ul>			
+
+			</li>
+				
+
+			<li id="a-z"><a href="">About</a>
+				<div class="Ab-d">zain</div>
+			</li>
+			<li><a href="">Blog</a></li>
+			<li><a href="">Contact us</a></li>		
+		</ul>
+		
+	</nav>
+
+
+</body>
+
+
+
+</html>
