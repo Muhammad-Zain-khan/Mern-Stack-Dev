@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box p
+    {
+        color:rgb(165, 165, 24);
+
+    }
+    .box-1
+    {
+        background-color: aqua;
+    }
+    .box-1 > p
+    {
+        color: blanchedalmond;
+    }
+    .box-2 + p
+    {
+        background-color: antiquewhite;
+    }
+    .box-3 ~ p
+    {
+        background-color: bisque;
+    }
+</style>
+<body>
+    <div class="box" style="border:1px solid black; background-color: antiquewhite;">
+        <h1>Descendant Selector</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ut nulla libero magnam repellat voluptatibus ipsa ipsum nisi, sint facilis eaque sed et quae cumque vel ratione quam? Distinctio, eveniet.
+        </p>
+    </div>
+    <div class="box-1">
+        <h1>Child Selector</h1>
+        <p>
+            Paragraph one
+        </p>
+        <p>Paragraph Two</p>
+        <section>
+            <p>Paragraph Four</p>
+        </section>
+        <p>
+            paragraph five
+        </p>
+    </div>
+    <div class="box-2">
+        <h1>Adjacent Sibling Selector</h1>
+        <p>
+            paragraph 01
+            paragraph 02
+        </p>
+    </div>
+    <p>
+        paragraph 03
+        paragraph 04
+    </p>
+
+    <div class="box-3">
+        <h1>General Sibling Selector</h1>
+        <p>
+            paragraph 01
+            paragraph 02
+        </p>
+    </div>
+    <p>
+        paragraph 03
+       
+    </p>
+    <span>Paragraph </span>
+    <p> paragraph 04</p>
+</body>
+
+</html>
