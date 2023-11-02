@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //alert("Hello zain")
+        //alert("Kesy hu ap")
+        //var username;
+        //username = "zain";
+       //document.write(username);
+       //var sirname;
+       //sirname = "Hello";
+       //document.write(sirname);
+       //var username = prompt("what is your name");
+       //console.log(typeof(username))
+      //var bestname = prompt("what is your name");
+      //console.log(typeof(bestname));
+      //var bset = Number (prompt("what is your name"))
+      //console.log(typeof(best))
+      //var intserv = parseInt(prompt("what is your name"))
+      //console.log(typeof(intserv), intserv)
+      var username = parseFloat (prompt("what is your name"))
+      console.log(typeof(username),username)
+    </script>
+</body>
+</html>
